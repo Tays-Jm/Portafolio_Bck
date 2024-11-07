@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi presentación</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/Estilos.css')}}">
+</head>
+<body>
+<div class="contenedor">
+    <div class="cuadro" style="background-color:#a3afe7;">   
+        <h1 style="color: rgb(121, 20, 168);">¿Quién soy?</h1>
+        <p>Soy Emanuel Juárez Moreno, hablante de la lengua Ngigua</p>
+        <p>Tengo 17 años y soy de Tlacotepec de Benito Juárez</p>
+        <img src="{{url_for('static', filename='images/Yo.jpg')}}" alt="Imagen de Emanuel" style="height: 130px; width: 100px; justify-content: center; border-radius: 7px;">
+    </div>
+
+
+    <div class="cuadro" style="background-color: rgb(252, 148, 110);">
+            <h1 style="color: cornsilk;">Gustos</h1>
+            <img src="Imagenes\Balon.jpg" alt="" class="imagen" style="height: 100px; width: 120px; border-radius: 7px;">
+            <img src="Imagenes\Atardecer.jpg" alt="" class="imagen" style="  width: 150px; height: 100px; border-radius: 7px;">
+            <img src="Imagenes\Foto.jpg" alt="" class="imagen" style="  width: 120px; height: 100px; border-radius: 7px;">
+            <img src="Imagenes\flash.jpg" alt="" class="imagen" style="  width: 120px; height: 90px; border-radius: 7px;">
+            
+    </div>
+
+    <div class="cuadro" style="background-color: darkkhaki;" >
+            <h1 style="color: rgb(68, 23, 23);">Habilidades</h1>
+            <img src="Imagenes\Audio.jpg" alt="" class="imagen" style="height: 120px; width: 150px; border-radius: 7px;">
+            <img src="Imagenes\Ecualizacion.jpg" alt="" class="imagen" style="height: 120px; width: 150px; border-radius: 7px; margin-left: 15px;">
+            <img src="Imagenes\Arreglar.jpg" alt="" class="imagen" style="height: 120px; width: 150px; border-radius: 7px; margin-left:15px;">
+           
+    </div>
+
+    <div class="cuadro" style="background-color: burlywood;">
+        <h1 style="color: ivory;">Contacto</h1>
+        
+        <a href="https://wa.me/+522371108309"  target="_blank">
+            <img src="Imagenes/Whats.png" alt="Logo WhatsApp" style="height: 100px; width: 100px; border-radius: 7px;">
+        </a>
+        <a href="mailto:emanuel.juarez@iberopuebla.mx?subject=Asunto%20del%20correo" target="_blank">
+            <img src="Imagenes\gmail.png" alt="Logo gmail" style="height: 100px; width: 100px; border-radius: 7px; margin-left: 10px;">
+        </a>
+    </div>
+</div>
+
+</body>
+</html>
