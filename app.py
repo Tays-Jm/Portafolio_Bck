@@ -45,6 +45,10 @@ def login():
     return render_template('login.html')
 
 
+@app.route('/Modeva')
+def modeva():
+    return render_template('Modeva.html')
+
 @app.route('/success', methods=['POST'])
 def success():
     email = request.form['email']
