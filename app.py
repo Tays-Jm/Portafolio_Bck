@@ -48,6 +48,9 @@ def login():
 @app.route('/Modeva')
 def modeva():
     return render_template('Modeva.html')
+@app.route('/Inteligencia')
+def inteligencia():
+    return render_template('Ai.html')
 
 @app.route('/success', methods=['POST'])
 def success():
